@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: brandon-grotesque, sans-serif;
+}
+body {
+  /* font-family: brandon-grotesque, sans-serif; */
+  font-style: normal;
+  font-size: 16px;
+}
+img {
+  max-width: 100%;
+  max-height: 640px;
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+#header {
+  display: block;
+  width: auto;
+  height: 64px;
+  position: relative;
+  /* background-color: #606060; */
+}
+.menuButtonLeft {
+  font-weight: 500;
+  color: grey;
+  float: left;
+  padding: 20px 30px 20px 10px;
+}
+.menuButtonRight {
+  font-weight: 500;
+  color: grey;
+  float: right;
+  padding: 20px 30px 20px 0px;
+}
+.basketImage {
+  height: 18px;
+  float: right;
+  position: relative;
+  padding-right: 20px;
+}
+.productRangePic {
+  height: auto;
+  width: 100%;
+  clear: right;
+  position: relative;
+}
+.howItWorksSection {
+  padding-top: 50px;
+  background-color: gray;
+}
+.howItWorksHeader {
+  text-align: center;
+  font-size: 25px;
+}
+.explanationTile {
+  display: inline;
+}
+.explanationPic {
+  display: block;
+}
+.explanationHeader {
+  text-align: center;
+  font-size: 25px;
+}
+.explanationText {
+  text-align: center;
+  font-size: 25px;
+}

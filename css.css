@@ -25,7 +25,6 @@ a {
   display: block;
   width: auto;
   height: 64px;
-  position: relative;
 }
 .kaneLink {
   color: red;
@@ -51,7 +50,6 @@ a {
 .productRangePic {
   height: auto;
   width: 100%;
-  position: relative;
 }
 
 .howItWorksSection {
@@ -62,6 +60,11 @@ a {
 .headerText {
   text-align: center;
   font-size: 1.5vw;
+}
+.infoHover {
+  display: inline-block;
+  /* height: 18px; */
+  /* position: relative; */
 }
 
 .explanationRow {
@@ -117,6 +120,16 @@ a {
   position: relative;
   margin: 0px 0px 150px 0px;
 }
+.selectButton {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  font-size: 1vw;
+  border-radius: 5px;
+}
+
 .closeUpContainer {
   display: flex;
   margin: 0 auto;
@@ -171,13 +184,9 @@ li {
 }
 
 .twoShoppingTiles {
-  display: flex;
-  background-color: red;
   height: auto;
   width: 100%;
-  /* min-height: 600px; */
-  position: relative;
-  /* height: 600px; */
+  margin: 0px 0px 50px 0px;
 }
 
 .image {
@@ -200,15 +209,14 @@ li {
 /* Work on relevant classes and content from here */
 
 .featuredTileContainer {
-  position: relative;
-  margin: 3vw;
-  display: block;
+  padding: 100px;
+  display: flex;
   width: 100%;
-  height: auto;
+  height: 600px;
 }
 .featuredTile {
   margin: auto;
-  float: left;
   display: inline-block;
   width: 25%;
+  height: 350px;
 }
